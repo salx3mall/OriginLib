@@ -1,15 +1,13 @@
-// stdafx.h: включаемый файл дл€ стандартных системных включаемых файлов
-// или включаемых файлов дл€ конкретного проекта, которые часто используютс€, но
-// не часто измен€ютс€
-//
-
-#pragma once
+#ifndef __stdafx_h__
+#define __stdafx_h__
 
 #include "targetver.h"
 
-#include <stdio.h>
 #include <tchar.h>
+#include <string>
 
+#include "Book.h"
 
+using namespace std;
 
-// TODO: ”становите здесь ссылки на дополнительные заголовки, требующиес€ дл€ программы
+#endif //__stdafx_h__
