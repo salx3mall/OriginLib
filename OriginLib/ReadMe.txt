@@ -1,30 +1,15 @@
-﻿========================================================================
-    КОНСОЛЬНОЕ ПРИЛОЖЕНИЕ. Обзор проекта OriginLib
-========================================================================
-
-Это приложение OriginLib создано автоматически с помощью мастера приложений.
-
-В этом файле представлена сводка содержимого всех файлов, входящих в состав приложения OriginLib.
-
-
-OriginLib.vcxproj
-    Это основной файл проекта VC++, создаваемый с помощью мастера приложений. Он содержит данные о версии языка Visual C++, использованной для создания файла, а также сведения о платформах, конфигурациях и функциях проекта, выбранных с помощью мастера приложений.
-
-OriginLib.vcxproj.filters
-    Это файл фильтров для проектов VC++, созданный с помощью мастера приложений. Он содержит сведения о сопоставлениях между файлами в вашем проекте и фильтрами. Эти сопоставления используются в среде IDE для группировки файлов с одинаковыми расширениями в одном узле (например CPP-файлы сопоставляются с фильтром "Исходные файлы").
-
-OriginLib.cpp
-    Это основной исходный файл приложения.
-
-/////////////////////////////////////////////////////////////////////////////
-Другие стандартные файлы:
-
-StdAfx.h, StdAfx.cpp
-    Эти файлы используются для построения файла предкомпилированного заголовка (PCH) с именем OriginLib.pch и файла предкомпилированных типов с именем StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Прочие примечания.
-
-С помощью комментариев «TODO:» в мастере приложений обозначаются фрагменты исходного кода, которые необходимо дополнить или изменить.
-
-/////////////////////////////////////////////////////////////////////////////
+﻿OriginLib is a demo (and training) project I plan to finish in 2020.
+What do I want this application to be able to do:
+-Implement fully-functional CLI;
+-Accept the data about a book and an author;
+-Allow user to log in (and off) to the user account safely (with ciphering the password);
+-Sort input data with the merge and quick sort algorithms;
+-Store data in the SQL-oriented database;
+-[questionable]Have a web interface;
+What different kinds of work (or components) should be performed for this work:
+-Object-oriented application written using the C++ labguage;
+-Database connection;
+-Hashing algorithm for user passwords;
+-Merge and quick sorting algorithms;
+-UML modelling of the main classes infrastructures;
+-[questionable]Web page, handled by the MVC pattern.
